@@ -1,14 +1,14 @@
 \documentclass[10pt]{article}
 \usepackage{arabtex}
 \usepackage{longtable}
-\usepackage[letterpaper, margin=0.5in]{geometry}
+\usepackage[letterpaper, margin=0.5in, landscape]{geometry}
 \begin{document}
 \settrans{english}
 \setarab % choose the language specific conventions
+% \setnashbf % bold if you want
 \vocalize % switch diacritics for short vowels on
 \transtrue % additionally switch on the transliteration
 \arabtrue % print arabic text ... is on by default anyway
-\ligsfalse % turn off ligatures until I'm more fluent
 \begin{longtable}[c]{| c || c | c | l | c |}
  % \caption{Long table caption.\label{long}}\\
 
@@ -16,12 +16,12 @@
  \hline
  \multicolumn{5}{| c |}{Arabic-English Vocab list}\\
  \hline
-	Arabic & Gender & Part of Speech & English meaning & Word form\\
+	Arabic & Gender & Part of Speech & English meaning &  Note\\
  \hline
  \endfirsthead
 
  \hline
-	Arabic & Gender & Part of Speech & English meaning & Word form\\
+	Arabic & Gender & Part of Speech & English meaning &  Note\\
  \hline
  \endhead
 
@@ -32,19 +32,19 @@
  \endlastfoot
 
 \RL{fy} &  & Preposition & in, about, on, of & \\
-\RL{tamAmAaN} &  & Adverb & absolutely, exactly & \\
-\RL{mu.hAsib mu.hAsibT} & mf & Noun & accountant & \\
+\RL{tam"Am"AaN} &  & Adverb & absolutely, exactly & \\
+\RL{mu.h"Asib mu.h"AsibT} & mf & Noun & accountant & \\
 % \RL{AalAazhar} &  & Name & Al-Azhar & \\
 % \RL{AljzAyr} & m & Noun & Algeria         & \\
 \RL{`aly} & m & Name & Ali & \\
-\RL{mumtAz mumtAzT} & mf & Adjective & amazing & \\
-\RL{'amriykaA} & f & Name & America & \\
-\RL{'amrykiyyT} & f & Adjective & American & \\
-\RL{'amstirdaAm} & f & Name & Amsterdam & \\
+\RL{mumt"Az mumt"AzT} & mf & Adjective & amazing & \\
+\RL{'am"ryk"A} & f & Name & America & \\
+\RL{'am"rykyyT} & f & Adjective & American & \\
+\RL{'am"s"tir"d"Am} & f & Name & Amsterdam & \\
 \RL{wa} &   & Conjunction & and & \\
-% \RL{waAbn} &  & Phrase & and a son & \\
+\RL{waAbn} &  & Phrase & and a son & Not sure how long "phrases" will persist as a category \\
 \RL{`arabiyy `arabiyyT} & mf & Adjective & Arab/Arabic & \\
-\RL{'arw_A} & f & Name & Arwa & \\
+\RL{'arw"_A} & f & Name & Arwa & \\
 % \RL{AustrAlyA} & f & Name & Australia & \\
 % \RL{bAkw} & m & Name & Baku & \\
 \RL{ba^syr} & m & Name & Bashir & \\
@@ -55,22 +55,22 @@
 \RL{walad} & m & Noun & boy & \\
 \RL{'ax} & m & Noun & brother & \\
 % \RL{binAyT} & f & Noun & building & \\
-\RL{kanadA} & f & Noun & Canada & \\
-\RL{sayyArT} & f & Noun & car & \\
+\RL{kanad"A} & f & Noun & Canada & \\
+\RL{sayy"ArT} & f & Noun & car & \\
 \RL{kary} & f & Name & Carrie & \\
-\RL{dajAj} & m & Noun & chicken & \\
+\RL{daj"Aj} & m & Noun & chicken & \\
 \RL{madynT} & f & Noun & city & \\
-\RL{AalmadynT} & f & Noun & city & \\
-\RL{bArid} & m & Adjective & cold & active participle form 1 \\
+\RL{.g"A'im} & m & Adjective & cloudy & active participle form 1 \\ 
+\RL{b"Arid} & m & Adjective & cold & active participle form 1 \\
 \RL{muzda.himT} & f & Adjective & crowded & \\
-\RL{kwbA} & f & Noun & Cuba & \\
-% \RL{dAkAr} &  & Name & Dakar & \\
+\RL{kwb"A} & f & Noun & Cuba & \\
+\RL{d"Ak"Ar} &  & Name & Dakar & \\
 \RL{bint} & f & Noun & daughter & \\
 \RL{dawwd} & m & Name & David & \\
-\RL{yA} &   & Particle & direct address & \\
+\RL{y"A} &   & Particle & direct address & \\
 \RL{duktwr duktwrT} & mf & Noun & doctor & \\
 \RL{kalb} & m & Noun & dog & \\
-\RL{bAb} & m & Noun & door & \\
+\RL{b"Ab} & m & Noun & door & \\
 % \RL{duww} &  & Name & Duo & \\
 \RL{hwlandiyy} & m & Adjective & Dutch & \\
 % \RL{saAm`T} & f & Adjective & easy & \\
@@ -85,96 +85,96 @@
 \RL{fransiyyT} & f & Adjective & French & \\
 \RL{min} &  & Preposition & from/of & \\
 \RL{mumti`} & m & Adjective & entertaining/fun & \\
-\RL{karAj} & m & Noun & garage & \\
+\RL{kar"Aj} & m & Noun & garage & \\
 % \RL{karym} & m & Adjective & generous & \\
 % \RL{AalmAnyA} & f & Name & Germany & \\
-\RL{.gassAn} & m & Name & Ghassan & \\
-\RL{.gaA'im} & m & Adjective & cloudy & active participle form 1 \\ 
+\RL{.gass"An} & m & Name & Ghassan & \\
 % \RL{bint} & f & Noun & girl & \\
 \RL{jayyad} & m & Adjective & good & \\
 \RL{sa`yd} & m & Adjective & happy & \\
-\RL{hArfArd} &  & Name & Harvard & \\
+\RL{h"Ar"f"Ar"d} &  & Name & Harvard & \\
 % \RL{`ind} &  & Verb & has/have & \\
 \RL{huwwa} &  & Pronoun & he (is) & \\
 % \RL{AahlAaN} &  & Interjection & hello & \\
 % \RL{hwlan} & f & Noun & Holland & \\
 \RL{bayt} & m & Noun & house & \\
-\RL{jaw`An jaw`AnT} & mf & Adjective & hungry & \\
+\RL{jaw`"An jaw`"AnT} & mf & Adjective & hungry & \\
 \RL{zawj} & m & Noun & husband & \\
 \RL{'an"A} &  & Pronoun & I (am) & \\
 \RL{muhimm muhimmT} & mf & Adjective & important & \\
-\RL{'islAmiyyT} & f & Adjective & islamic & \\
-\RL{jAkyt} & m & Noun & jacket & \\
+\RL{'is"l"AmiyyT} & f & Adjective & islamic & \\
+\RL{j"Akyt} & m & Noun & jacket & \\
 \RL{'urduni} &  & Name & Jordan & \\
 \RL{'urduniyy 'urduniyyT} & mf  & Adjective & Jordanian & \\
 % \RL{} &  & Name & Juba & \\
 \RL{jwdy} & f & Name & Judy & \\
-% \RL{kwryA} & f & Name & Korea & \\
-\RL{lam_A} & f & Name & Lama & \\
-% \RL{lu.gT} & f & Noun & language & \\
-% \RL{mu.hAmy} & m & Noun & lawyer & \\
-% \RL{mu.hAmyT} & f & Noun & lawyer & \\
+% \RL{kwry"A} & f & Name & Korea & \\
+\RL{lam"_A} & f & Name & Lama & \\
+\RL{lu.gT} & f & Noun & language & \\
+\RL{mu.h"Amy mu.hAmyT} & mf & Noun & lawyer & Wiktionary notes this is the informal form \\
 % \RL{lubnAn} & m & Name & Lebanon & \\
 % \RL{.tawyl} &  & Adjective & long & \\
-\RL{mahA} & f & Name & Maha& \\ 
+\RL{mah"A} & f & Name & Maha& \\ 
 % \RL{rajxxl} & m & Noun & man & \\
-\RL{mAyk} & m  & Name & Mike & \\
+\RL{m"Ayk} & m  & Name & Mike & \\
 \RL{ism} & m & Noun & name & \\
-\RL{mA} &  & Adverb  & what & \\
+\RL{m"A} &  & Adverb  & what & \\
 \RL{ma.gribiyy ma.gribiyyT} & mf & Adjective & Moroccan & \\
 \RL{'umm} & f & Noun & mother & \\
-\RL{jAr} & m & Noun & neighbor & \\
-\RL{Aalj"Ar} & m & Noun & the neighbor & \\
+\RL{j"Ar} & m & Noun & neighbor & \\
+\RL{Al|-j"Ar} & m & Noun & the neighbor & Without care this could appear \RL{Al-j"Ar} in \LaTeX \\
 \RL{jadyd jadydT} & mf & Adjective & new & \\
 \RL{nywywrk} &  & Name & New York & \\
 % \RL{`umAn} & f & Noun & Oman & \\
 \RL{`umar} & m & Name & Omar & \\
 % bArys Paris
+\RL{b"Arys} & m & Name & Paris & \\
 % \RL{byrw} & f & Noun & Peru & \\
 \RL{jamyl} & m & Adjective & pretty & \\
-\RL{'ustA_d 'ustA_dT} & mf & Noun & professor & \\
-% \RL{malikT} & f & Noun & queen & \\
-\RL{rAnyA} & f & Name & Rania & \\
-\RL{rawAd} & m & Name & Rawad & \\
+\RL{'us"t"A_d 'us"t"A_dT} & mf & Noun & professor & \\
+\RL{malik malikT} & mf & Noun & King/ queen & \\
+\RL{r"Any"A} & f & Name & Rania & \\
+\RL{raw"Ad} & m & Name & Rawad & \\
 \RL{rym} & f & Name & Reem & \\
-% \RL{`Ady} & m & Adjective & regular & \\
+\RL{`"Ady} & m & Adjective & regular & \\
 % \RL{} &  & Name & Riga & \\
-% \RL{.gurfT} &  & Noun & room & \\
+\RL{.gur"fT} &  & Noun & room & \\
 \RL{rwzA} & f & Name & Rosa & \\
-\RL{sAm} & m & Name & Sam & \\
-\RL{sAmyT} & f & Name & Samia & \\
-% \RL{Aiskurland} & f & Noun & Scotland & \\
-% \RL{sy_t} & m & Name & Seth & \\
+\RL{s"Am} & m & Name & Sam & \\
+\RL{s"AmyT} & f & Name & Samia & \\
+\RL{"s"kut"lan"d"A} & f & Noun & Scotland & \\
+\RL{sy_t} & m & Name & Seth & \\
 % \RL{^sAdy} & m & Name & Shadi & \\
 \RL{hiyya} &  & Pronoun & she (is) & \\
 \RL{'uxt} & f & Noun & sister & \\
 \RL{_dkiyy _dkiyyT} & mf & Adjective & smart & \\
-% \RL{^say'} &  & Noun & something & \\
-\RL{Aibn} & m & Noun & son & \\
-\RL{wAsi`T} & f & Adjective & spacious & \\
-% \RL{swryA} & f & Noun & Syria & \\
+\RL{ib"n} & m & Noun & son & \\
+\RL{w"Asi`T} & f & Adjective & spacious & \\
+\RL{swry"A} & f & Noun & Syria & \\
 \RL{swriyyT} & f & Adjective & Syrian & \\
 \RL{.tawyl} &  & Adjective & tall & \\
 % \RL{tmir} & m & Name & Tamer & \\
 \RL{mu`allam mu`allamT} & mf  & Noun & teacher & \\
-\RL{^sukrAaN} &  & interjection & thank you & \\
-% \RL{^say'} &  & Noun & thing & \\
-\RL{ta`bAn ta`bAnT} & mf & Adjective & tired & \\
+\RL{^sukr"AaN} &  & interjection & thank you & \\
+\RL{^say'} &  & Noun & thing, something & \\
+\RL{ta`b"An ta`b"AnT} & mf & Adjective & tired & \\
 \RL{mutarjim mutarjimT} & mf & Noun & translator & \\
-% \RL{twnis} & f & Noun & Tunisia & \\
-\RL{jAmi`T} & f & Noun & university & \\
+\RL{twnis} & f & Noun & Tunis & \\
+\RL{j"Ami`T} & f & Noun & university & \\
+\RL{Al-'umamu Al-mutta.hidT} & & Name & The United Nations & Note two \RL{lAm Al-t`rif}, both with \RL{hamzaT wa.sl}\\
 \RL{jidd"AaN} &   & Adverb & very & \\
 \RL{.garyb .garybT} & mf & Adjective & weird & \\
 \RL{'ayn} &  & Adverb & where & \\
-\RL{Aimra'aT} & f & Noun & woman & \\
-\RL{alyaman} & m & Noun & Yemen & \\
-\RL{hal} &  & Particle & yes / no question & \\
-\RL{'anta} & m & Pronoun & you (are)  & \\
-\RL{'anti} & f & Pronoun & you (are) & \\
-% \RL{`afwAaN} &  & speech & You're welcome & \\
+\RL{Alnis"A'} & f & Noun & woman & \\
+\RL{im"ra'aT} & f & Noun & woman & \\
+\RL{al-yaman} & m & Noun & Yemen & \\
+\RL{hal"} &  & Particle & yes / no question & \\
+\RL{'an"ta} & m & Pronoun & you (are)  & \\
+\RL{'an"ti} & f & Pronoun & you (are) & \\
+\RL{`afw"AaN} &  & speech & You're welcome & \\
 \RL{zayd} & m & Name & Zayd & \\
-\RL{|"ak} & m &  & vocative genitive suffix & \\
-\RL{|"ik} & f &  & vocative genitive suffix & \\
+\RL{|"ak} & m &  & vocative genitive suffix & Not sure if this is the best term \\
+\RL{|"ik} & f &  & vocative genitive suffix &  Not sure if this is the best term \\
 
 
  \end{longtable}
